@@ -1,2 +1,11 @@
 server:
   port: 8088
+
+# logback配置
+logging:
+  config: classpath:logback-spring.xml
+  path: d:/gseem
+
+spring:
+  application:
+    name: lesson01

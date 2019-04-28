@@ -1,7 +1,7 @@
-package com.gseem.lesson01;
+package com.gseem.lesson03;
 
-import com.gseem.lesson01.web.HelloController;
-import com.gseem.lesson01.web.UserController;
+import com.gseem.lesson03.web.HelloController;
+import com.gseem.lesson03.web.UserController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

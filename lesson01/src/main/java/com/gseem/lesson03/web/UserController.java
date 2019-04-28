@@ -1,6 +1,6 @@
-package com.gseem.lesson01.web;
+package com.gseem.lesson03.web;
 
-import com.gseem.lesson01.entity.User;
+import com.gseem.lesson03.entity.User;
 import io.swagger.annotations.*;
 import org.springframework.web.bind.annotation.*;
 

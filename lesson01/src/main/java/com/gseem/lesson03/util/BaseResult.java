@@ -1,4 +1,4 @@
-package com.gseem.lesson01.util;
+package com.gseem.lesson03.util;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

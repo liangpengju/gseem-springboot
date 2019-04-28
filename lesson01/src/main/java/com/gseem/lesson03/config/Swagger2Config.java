@@ -1,4 +1,4 @@
-package com.gseem.lesson01.config;
+package com.gseem.lesson03.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -28,7 +28,7 @@ public class Swagger2Config {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.gseem.lesson01.web"))
+                .apis(RequestHandlerSelectors.basePackage("com.gseem.lesson03.web"))
                 .paths(PathSelectors.any())
                 .build();
     }
